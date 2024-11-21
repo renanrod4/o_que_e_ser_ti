@@ -50,7 +50,7 @@ Essas especialidades ajudam empresas e pessoas a resolver problemas e inovar.
 
 ### Pontos positivos e negativos da TI
 
-Positivos:
+* Positivos:
 
 > Grandes oportunidades de carreira
 
@@ -58,7 +58,7 @@ Positivos:
 
 > Salários atrativos
 
-Negativos:
+* Negativos:
 
 > Alta demanda por atualização constante
 
@@ -88,22 +88,4 @@ Atualmente, algumas das linguagens mais populares e utilizadas são:
 
 ### Piso salarial em TI
 
-Os salários na área de TI variam conforme a experiência e a localização. O piso salarial inicial pode variar entre  R\$2.000 a R\$ 4.000 no Brasil, enquanto profissionais experientes podem ganhar muito mais, principalmente em áreas como desenvolvimento de software e segurança da informação.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Os salários na área de TI variam conforme a experiência e a localização. O piso salarial inicial pode variar entre R\$2.000 a R\$4.000 no Brasil, enquanto profissionais experientes podem ganhar muito mais, principalmente em áreas como desenvolvimento de software e segurança da informação.
