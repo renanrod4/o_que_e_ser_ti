@@ -113,3 +113,6 @@ main {
 .yellow{
   @apply text-yellow;
 }
+.yellow-glow{
+  @apply  text-shadow-yellow;
+}

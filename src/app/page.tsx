@@ -21,7 +21,7 @@ export default function Home() {
 
         <Window title="O que comem? Onde habitam?" id="bottomWindow" buttons={false}>
           <p>
-            Vamos Descobrir um pouco mais sobre essas <span className="yellow" >criaturas fascinantes</span>!
+            Vamos Descobrir um pouco mais sobre essas <span className="yellow yellow-glow" >criaturas fascinantes</span>!
           </p>
         </Window>
 

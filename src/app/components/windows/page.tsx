@@ -1,4 +1,3 @@
-import React, { Children } from "react"
 
 type typeProp = {
     title?: string,
