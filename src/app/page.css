@@ -1,0 +1,115 @@
+main {
+  @apply w-full
+    h-full;
+  div{
+    @apply rounded-lg
+  }
+  #mainWindow {
+    @apply bg-background
+      absolute
+      w-[80%]
+      h-5/6
+      top-[7%]
+      left-[12%]
+    border-white
+      border-2
+      text-center
+      flex
+      flex-col      
+      ;
+      
+      .content{
+        @apply flex-1;
+        #mainContent{
+          @apply text-8xl font-thin items-center justify-center w-full h-full flex p-20 -translate-y-20;
+          
+        }
+      }
+  }
+  #bottomWindow {
+    @apply bg-background
+      absolute
+      w-[43%]
+      h-1/4
+      bottom-[3%]
+      left-1/2
+    border-white
+      border-2
+      -translate-x-1/2
+      flex
+      flex-col
+      text-2xl
+      text-center;
+      .content{
+        @apply flex-1
+        flex
+        px-4
+        
+        items-center;
+      }
+  }
+  #leftWindow {
+    @apply bg-background
+      absolute
+      w-1/4
+      h-1/5
+      bottom-[20%]
+      left-[2%]
+    border-white
+      border-2;
+    .topbar {
+      @apply justify-end
+        px-3;
+    }
+
+    
+  }
+  .topbar {
+    @apply w-full
+    h-12
+  border-white
+    border-b-2
+    flex
+    items-center
+    justify-center
+    font-semibold
+    text-lg;
+    .title{
+      @apply w-[90%] text-center;
+    }
+    .buttons{
+      @apply flex;
+    }
+    #green {
+      @apply bg-green;
+    }
+    #yellow {
+      @apply bg-yellow;
+    }
+    #red {
+      @apply bg-red;
+    }
+    .topBarBtns {
+      @apply m-1
+        w-3.5
+        h-3.5
+        rounded-full;
+    }
+  }
+  
+}
+.purple{
+  @apply text-purple;
+}
+.red{
+  @apply text-red;
+}
+.green{
+  @apply text-green;
+}
+.blue{
+  @apply text-blue;
+}
+.yellow{
+  @apply text-yellow;
+}
