@@ -5,6 +5,10 @@
 :root {
   --background: #17191E;
   --foreground: #F3F8F7;
+  --dot-bg: black; /* Cor dos pontos */
+  --dot-space: 3vw;           /* Espaçamento entre os pontos */
+  --dot-size: 1.95vw;             /* Tamanho dos pontos */
+  --dot-color: #246EB9ee;        /* Cor de fundo padrão */
 }
 body,html{
   width:100%;

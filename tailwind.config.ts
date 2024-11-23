@@ -12,9 +12,11 @@ export default {
       textShadow: {
         'yellow': '0 0 10px rgba(0, 0, 0, 0.5), 0 0 30px yellow',
       },
+      
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        darker:"#121317",
         green: "#0CCE6B",
         yellow: "#FDE74C",
         red: "#DB162F",
