@@ -54,6 +54,20 @@ export default function Home() {
           </div>
         </article>
       </section>
+
+      <section id='http'>
+        <article id='httpLeft'>
+          <div className="image"><Image alt="gif" src="/images/http.svg" width={350} height={350} id='httpsvg'/>
+          </div>
+        </article>
+
+        <article id='httpRight' className='infoArticle'>
+          <h1>Como surgiu o HTTP?</h1>
+          <div className='textContent'>
+            <p>O HTTP (Hypertext Transfer Protocol) foi criado em 1989 por Tim Berners-Lee, o inventor da World Wide Web. Ele desenvolveu o protocolo como uma forma de comunicação entre navegadores e servidores, permitindo a troca de informações na web de forma rápida e acessível.</p>
+          </div>
+        </article>
+      </section>
     </main>
   );
 }
