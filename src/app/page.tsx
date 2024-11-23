@@ -1,4 +1,4 @@
-import {Displays} from './components/displays/page';
+import {Displays} from './components/displays/displays';
 import './page.css'
 
 
