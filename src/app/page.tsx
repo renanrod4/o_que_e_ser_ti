@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import {Displays} from './components/displays/displays';
+import { Displays } from './components/displays/displays';
 import './page.css'
 
 
@@ -36,17 +36,23 @@ export default function Home() {
         <article className='infoArticle'>
           <h1>Como surgiu a internet?</h1>
           <div className='textContent'>
-          <p>A internet surgiu no final dos anos 1960 como um projeto militar dos Estados Unidos para conectar computadores de diferentes locais de forma segura e descentralizada. Com o tempo, ela foi adaptada para universidades, empresas e, mais tarde, para o público geral, transformando-se no que conhecemos hoje.</p>
-          </div>
-        </article>   
-      </section>
-
-      <section>
-        <article id='arpanetLeft'>
-          <div className="image"><Image alt="gif" src="/images/sphere.webp" width={700} height={500}/>
+            <p>A internet surgiu no final dos anos 1960 como um projeto militar dos Estados Unidos para conectar computadores de diferentes locais de forma segura e descentralizada. Com o tempo, ela foi adaptada para universidades, empresas e, mais tarde, para o público geral, transformando-se no que conhecemos hoje.</p>
           </div>
         </article>
-        <article>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus consequatur quam corporis, quia iste, optio ut quas fugit excepturi magni quasi aliquid cupiditate non. Nulla eum laborum provident fugiat deleniti!</article>
+      </section>
+
+      <section id='arpanet'>
+        <article id='arpanetLeft'>
+          <div className="image"><Image alt="gif" src="/images/sphere.webp" width={700} height={500} />
+          </div>
+        </article>
+
+        <article id='arpanetRight' className='infoArticle'>
+          <h1>Arpanet</h1>
+          <div className='textContent'>
+            <p>A ARPANET, criada em 1969, foi a precursora da internet. Desenvolvida pelo Departamento de Defesa dos EUA, ela conectava instituições de pesquisa e universidades, permitindo o compartilhamento de informações. Foi a primeira rede a usar o protocolo TCP/IP, base para a internet moderna.</p>
+          </div>
+        </article>
       </section>
     </main>
   );

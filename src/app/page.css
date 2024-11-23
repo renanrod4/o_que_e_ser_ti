@@ -101,10 +101,18 @@ main {
       }
     }
   }
-  #arpanetLeft{
-    @apply bg-black h-full max-w-[40%] mr-[10%] shadow-black;
-    box-shadow: 0 0 120px 120px black;
+  #arpanet{
+    @apply justify-start;
+
+    #arpanetLeft{
+      @apply bg-black h-full max-w-[40%] mr-[10%] shadow-black;
+      box-shadow: 0 0 120px 120px black;
+    }
+    #arpanetRight{
+      @apply bg-darker border-blue border-2; 
+    }
   }
+
   .infoArticle {
     @apply rounded-3xl border-2 m-10 p-8 max-w-3xl;
 
