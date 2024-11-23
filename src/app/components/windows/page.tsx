@@ -18,7 +18,7 @@ function showButtons(buttons: boolean) {
     }
 }
 
-export function Window(props: typeProp) {
+export default function Displays(props: typeProp) {
 
 
     return (
