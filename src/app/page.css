@@ -1,8 +1,8 @@
 main {
   @apply w-full
     h-full;
-  div{
-    @apply rounded-lg
+  div {
+    @apply rounded-lg;
   }
   #mainWindow {
     @apply bg-background
@@ -15,16 +15,14 @@ main {
       border-2
       text-center
       flex
-      flex-col      
-      ;
-      
-      .content{
-        @apply flex-1;
-        #mainContent{
-          @apply text-8xl font-thin items-center justify-center w-full h-full flex p-20 -translate-y-20;
-          
-        }
+      flex-col;
+
+    .content {
+      @apply flex-1;
+      #mainContent {
+        @apply text-8xl font-thin items-center justify-center w-full h-full flex p-20 -translate-y-20;
       }
+    }
   }
   #bottomWindow {
     @apply bg-background
@@ -39,14 +37,15 @@ main {
       flex
       flex-col
       text-2xl
-      text-center;
-      .content{
-        @apply flex-1
+      text-center
+      ;
+    .content {
+      @apply flex-1
         flex
         px-4
-        
-        items-center;
-      }
+        items-center
+        justify-center;
+    }
   }
   #leftWindow {
     @apply bg-background
@@ -56,13 +55,30 @@ main {
       bottom-[20%]
       left-[2%]
     border-white
-      border-2;
+      border-2
+      flex
+      flex-col
+      ;
+    .content{
+      @apply flex-1 flex justify-center items-center px-10;
+
+    }
+    #lines{
+      @apply flex-1 pl-4;
+      .line1{
+        @apply bg-white h-1.5 w-4/5 my-3;
+      }
+      .line2{
+        @apply bg-white h-1.5 w-3/5 my-3;
+      }
+    }
+    #ylwrect{
+      @apply bg-yellow rounded aspect-square h-3/5;
+    }
     .topbar {
       @apply justify-end
         px-3;
     }
-
-    
   }
   .topbar {
     @apply w-full
@@ -74,10 +90,10 @@ main {
     justify-center
     font-semibold
     text-lg;
-    .title{
+    .title {
       @apply w-[90%] text-center;
     }
-    .buttons{
+    .buttons {
       @apply flex;
     }
     #green {
@@ -96,23 +112,22 @@ main {
         rounded-full;
     }
   }
-  
 }
-.purple{
+.purple {
   @apply text-purple;
 }
-.red{
+.red {
   @apply text-red;
 }
-.green{
+.green {
   @apply text-green;
 }
-.blue{
+.blue {
   @apply text-blue;
 }
-.yellow{
+.yellow {
   @apply text-yellow;
 }
-.yellow-glow{
-  @apply  text-shadow-yellow;
+.yellow-glow {
+  @apply text-shadow-yellow;
 }

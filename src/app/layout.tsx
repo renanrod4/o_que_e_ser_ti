@@ -1,5 +1,11 @@
 import type { Metadata } from "next";
 import "./layout.css";
+import { Archivo } from "next/font/google";
+
+const archivo = Archivo({
+  weight: ['100', '200', '300', '400', '500', '600', '700', '800',],
+  subsets: ['latin'],
+})
 
 export const metadata: Metadata = {
   title: "Ser um TI",
@@ -13,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br">
-      <body>
+      <body className={archivo.className}>
         {children}
       </body>
     </html>

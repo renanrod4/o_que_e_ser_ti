@@ -1,14 +1,10 @@
-import { Archivo } from "next/font/google";
 import './page.css'
 import { Window } from './components/windows/page';
-const archivo = Archivo({
-  weight: ['100', '200', '300', '400', '500', '600', '700', '800',],
-  subsets: ['latin'],
-})
+
 
 export default function Home() {
   return (
-    <main className={archivo.className}>
+    <main>
       <section>
         <Window title="O que é ser um T.I" id="mainWindow" buttons={false}>
           <div id="mainContent">
@@ -26,7 +22,11 @@ export default function Home() {
         </Window>
 
         <Window id="leftWindow" buttons={true}>
-
+          <div id="ylwrect"></div>
+          <div id="lines">
+            <div className="line1"></div>
+            <div className="line2"></div>
+          </div>
         </Window>
       </section>
     </main>

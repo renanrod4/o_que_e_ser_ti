@@ -28,7 +28,7 @@ export default {
     function ({ addUtilities }) {
       addUtilities({
         '.text-shadow-yellow': {
-          textShadow: '0 0 10px rgba(0, 0, 0, 0.5), 0 0 30px yellow',
+          textShadow: '0 0 1px rgba(0, 0, 0, 1), 0 0 30px yellow',
         },
       });
     },
