@@ -2,7 +2,7 @@ main {
   @apply w-full h-full;
 
   section {
-    @apply w-full h-svh;
+    @apply w-full h-svh flex justify-center items-center overflow-hidden;
   }
 
   div {
@@ -101,7 +101,10 @@ main {
       }
     }
   }
-
+  #arpanetLeft{
+    @apply bg-black h-full max-w-[40%] mr-[10%] shadow-black;
+    box-shadow: 0 0 120px 120px black;
+  }
   .infoArticle {
     @apply rounded-3xl border-2 m-10 p-8 max-w-3xl;
 
