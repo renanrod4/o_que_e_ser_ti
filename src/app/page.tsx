@@ -1,4 +1,4 @@
-import Displays from './components/windows/page';
+import Displays from './components/displays/page';
 import './page.css'
 
 
