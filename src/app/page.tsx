@@ -19,7 +19,7 @@ export default function Home() {
 
         <Displays title="O que comem? Onde habitam?" id="bottomWindow" buttons={false}>
           <p>
-            Vamos Descobrir um pouco mais sobre essas <span className="yellow yellow-glow" >criaturas fascinantes</span>!
+            Vamos Descobrir um pouco mais sobre essas <span className="yellow yellow-glow" >criaturas fascinantes!</span>
           </p>
         </Displays>
 
@@ -32,7 +32,7 @@ export default function Home() {
         </Displays>
       </section>
 
-      <section className='darker bg-custom-dots' id='internetOrigin'>
+      <section className='darker bg-custom-dots' id='internetOrigin'>{/* Origins of internet */}
         <article className='infoArticle'>
           <h1>Como surgiu a internet?</h1>
           <div className='textContent'>
@@ -55,9 +55,9 @@ export default function Home() {
         </article>
       </section>
 
-      <section id='http'>
+      <section id='http'>{/* How emerged the HTTP */}
         <article id='httpLeft'>
-          <div className="image"><Image alt="gif" src="/images/http.svg" width={350} height={350} id='httpsvg'/>
+          <div className="image"><Image alt="gif" src="/images/http.svg" width={350} height={350} id='httpsvg' />
           </div>
         </article>
 
@@ -67,6 +67,19 @@ export default function Home() {
             <p>O HTTP (Hypertext Transfer Protocol) foi criado em 1989 por Tim Berners-Lee, o inventor da World Wide Web. Ele desenvolveu o protocolo como uma forma de comunicação entre navegadores e servidores, permitindo a troca de informações na web de forma rápida e acessível.</p>
           </div>
         </article>
+      </section>
+
+      <section className="darker" id='plOrigins'>{/* Programming languages origins */}
+        <Image alt='brackets' src={"/images/brackets.svg"} height={900} width={150} id='leftBracket' className='brackets' />
+        <article className='infoArticle'  >
+          <h1>Como surgiram as linguagens de programação</h1>
+          <div className='textContent'>
+            <p>
+              As linguagens de programação surgiram para simplificar a comunicação entre humanos e computadores. Nos anos 1950, foram criadas linguagens como Fortran e COBOL para resolver problemas matemáticos e comerciais. Desde então, elas evoluíram para atender às necessidades de diversas áreas, como web, inteligência artificial e jogos.
+            </p>
+          </div>
+        </article>
+        <Image alt='brackets' src={"/images/brackets.svg"} height={900} width={150} id='rightBracket' className='brackets' />
       </section>
     </main>
   );

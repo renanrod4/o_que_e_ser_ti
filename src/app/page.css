@@ -27,6 +27,9 @@ main {
     .content {
       @apply flex-1 flex px-4 items-center justify-center;
     }
+    span{
+      @apply block;
+    }
   }
 
   #leftWindow {
@@ -87,57 +90,76 @@ main {
 
   #internetOrigin {
     @apply flex justify-center items-center;
-    background: radial-gradient(circle,var(--dot-bg) var(--dot-size),transparent var(--dot-size))center / var(--dot-space) var(--dot-space),var(--dot-color);
+    background: radial-gradient(
+          circle,
+          var(--dot-bg) var(--dot-size),
+          transparent var(--dot-size)
+        )
+        center / var(--dot-space) var(--dot-space),
+      var(--dot-color);
 
     .infoArticle {
-      @apply backdrop-blur-[3px] bg-[#17191Ecc] border-purple;
+      @apply backdrop-blur-[3px] bg-[#17191Ecc] border-purple w-4/6;
 
       h1 {
         @apply text-3xl;
       }
 
-      .textContent {
-        @apply flex flex-1 text-lg text-center justify-center items-center;
-      }
     }
   }
-  #arpanet{
+  #arpanet {
     @apply justify-start;
 
-    #arpanetLeft{
+    #arpanetLeft {
       @apply bg-black h-full max-w-[40%] mr-[10%] shadow-black;
       box-shadow: 0 0 120px 120px black;
     }
-    #arpanetRight{
-      @apply bg-darker border-blue border-2; 
+    #arpanetRight {
+      @apply bg-darker border-blue border-2 w-1/2;
     }
   }
-  #http{
+  #http {
     @apply flex justify-evenly;
-    #httpLeft{
-      
+    #httpLeft {
     }
-    #httpRight{
-      @apply flex-1;
+    #httpRight {
+      @apply  max-w-[55%];
+    }
+  }
+  #plOrigins {
+    @apply justify-evenly;
+    .infoArticle {
+      @apply border-yellow w-2/3;
+    }
+    .brackets{
+      @apply h-5/6 w-auto absolute;
+    }
+    #leftBracket{
+      @apply left-0;
+    }
+    #rightBracket {
+      @apply right-0;
+      -webkit-transform: scaleX(-1);
+      transform: scaleX(-1);
+      
     }
   }
 
   .infoArticle {
-    @apply rounded-3xl border-2 m-10 p-8 max-w-3xl;
+    @apply rounded-3xl border-2 m-10 p-8 ;
 
     h1 {
       @apply text-3xl;
     }
 
     .textContent {
-      @apply flex flex-1 text-lg text-center justify-center items-center;
+      @apply flex flex-1 text-[1.5rem] text-center justify-center items-center;
     }
   }
 
   article {
-    @apply h-1/2 flex flex-col items-center text-center justify-center;
+    @apply h-4/6 flex flex-col items-center text-center justify-center;
   }
-
 }
 
 .purple {
@@ -170,19 +192,18 @@ main {
 
 ::-webkit-scrollbar {
   width: 12px;
-  
 }
 ::-webkit-scrollbar-track {
-  background: #07080C; 
-  
+  background: #07080c;
 }
 ::-webkit-scrollbar-thumb {
-  background: #6F2DBD;
-  border-radius:20px
+  background: #6f2dbd;
+  border-radius: 20px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #562395; 
+  background: #562395;
 }
-#httpsvg{
-  filter: invert(22%) sepia(84%) saturate(3447%) hue-rotate(260deg) brightness(76%) contrast(93%);
+#httpsvg {
+  filter: invert(22%) sepia(84%) saturate(3447%) hue-rotate(260deg)
+    brightness(76%) contrast(93%);
 }
