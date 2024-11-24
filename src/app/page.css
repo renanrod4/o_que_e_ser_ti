@@ -145,6 +145,29 @@ main {
   .card{
     box-shadow: 0px 0px 50px #00000099;
   }
+  #itAreas{
+    @apply flex;
+    article{
+      @apply flex-1;
+      
+    }
+    #itAreasLeft{
+      @apply border-orange;
+      .textContent{
+        @apply flex-col  px-[12%];
+        ul{
+          @apply pl-6 py-6 text-start;
+        }
+        li{
+          @apply list-disc opacity-80;
+          
+        }
+        p{
+          @apply text-center;
+        }
+      }
+    }
+  }
 
 
   .infoArticle {

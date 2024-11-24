@@ -90,6 +90,29 @@ export default function Home() {
       <section>
         <AnimatedBorderDemo />
       </section>
+      <section className="darker" id="itAreas">
+        <article className="infoArticle" id="itAreasLeft">
+          <h1>Áreas de T.I</h1>
+          <div className="textContent" >
+            <p>
+              A T.I é uma área vasta, que inclui:
+            </p>
+            <ul>
+              <li>Desenvolvimento de software</li>
+              <li>Segurança da informação</li>
+              <li>Administração de redes</li>
+              <li>Inteligência artificial</li>
+              <li>Ciência de dados</li>
+              <li>Suporte técnico</li>
+            </ul>
+            <p>Essas especialidades ajudam empresas e pessoas a resolver problemas e inovar.</p>
+
+          </div>
+        </article>
+        <article id="itAreasRight">
+          <Image alt="computer" src={"/images/computer.svg"} width={900} height={900} id="computer" />
+        </article>
+      </section>
     </main>
   );
 }

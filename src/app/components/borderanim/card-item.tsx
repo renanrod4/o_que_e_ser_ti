@@ -12,7 +12,7 @@ export const CardItem = ({ text, title, className }: CardItemProps) => {
       <div className=" text-5xl  pb-8 flex justify-center items-center text-center">
         {title}
       </div>
-      <div className=" flex justify-center items-center text-center text-[1.5rem]" >
+      <div className=" flex justify-center items-center text-center text-[1.5rem] whitespace-pre-wrap" >
         {text}
       </div>
     </div>

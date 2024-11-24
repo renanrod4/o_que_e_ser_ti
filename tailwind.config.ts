@@ -16,12 +16,14 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        white:"var(--foreground)",
         darker:"#121317",
         green: "#0CCE6B",
         yellow: "#FDE74C",
         red: "#DB162F",
         purple: "#6F2DBD",
         blue: "#246EB9",
+        orange:"#eb965c",
       },
     },
   },
@@ -31,6 +33,7 @@ export default {
       addUtilities({
         '.text-shadow-yellow': {
           textShadow: '0 0 1px rgba(0, 0, 0, 1), 0 0 30px yellow',
+          
         },
       });
     },
