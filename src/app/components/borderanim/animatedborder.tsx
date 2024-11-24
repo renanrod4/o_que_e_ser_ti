@@ -20,7 +20,7 @@ export const AnimatedBorder = ({
     return (
         <div
             className={cn(
-                "relative w-full h-full overflow-hidden p-[4px] card",
+                "relative overflow-hidden p-[4px] card",
                 className
             )}
         >
