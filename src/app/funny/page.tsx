@@ -1,9 +1,9 @@
-import { AnimatedBorderDemo } from "./components/borderanim/animated-border-demo";
-import { InfiniteCarouselDemo } from "./components/carousel/infinite-carousel-demo";
+import { AnimatedBorderDemo } from "../components/borderanim/animated-border-demo";
+import { InfiniteCarouselDemo } from "../components/carousel/infinite-carousel-demo";
 
 import Image from 'next/image'
-import { Displays } from './components/displays/displays';
-import './page.css'
+import { Displays } from '../components/displays/displays';
+import '../page.css'
 
 
 
@@ -39,8 +39,10 @@ export default function Home() {
         <article className='infoArticle'>
           <h1>Como surgiu a internet?</h1>
           <div className='textContent'>
-            <p>A internet surgiu no final dos anos 1960 como um projeto militar dos Estados Unidos para conectar computadores de diferentes locais de forma segura e descentralizada.
-              <br /> Com o tempo, ela foi adaptada para universidades, empresas e, mais tarde, para o público geral, transformando-se no que conhecemos hoje.</p>
+            <p>A internet surgiu no final dos anos 1960, basicamente porque alguém pensou: "E se precisarmos mandar um e-mail secreto sobre mísseis nucleares?" Assim, nasceu uma rede para conectar computadores de diferentes locais de forma segura e descentralizada.
+              <br />
+              Com o tempo, essa ideia séria acabou caindo nas mãos das universidades, que usaram para trocar artigos científicos, e depois das empresas, que a transformaram em uma máquina de anúncios. Eventualmente, chegou até o público geral, onde evoluiu para o que conhecemos hoje: 
+              <br />um lugar onde memes, vídeos de gatinhos e debates acalorados sobre qual é o melhor sabor de pizza dominam a comunicação global.</p>
           </div>
         </article>
       </section>
@@ -55,7 +57,8 @@ export default function Home() {
           <h1>Arpanet</h1>
           <div className='textContent'>
             <p>A ARPANET, criada em 1969, foi a precursora da internet. Desenvolvida pelo Departamento de Defesa dos EUA, ela conectava instituições de pesquisa e universidades, permitindo o compartilhamento de informações.
-              <br />Foi a primeira rede a usar o protocolo TCP/IP, base para a internet moderna.</p>
+              <br />Foi a primeira rede a usar o protocolo TCP/IP, base para a internet moderna  e pavimentou o caminho para tudo que amamos hoje, desde e-mails com gifs animados até discussões intermináveis sobre teorias da conspiração no Twitter.
+              <br /> Obrigado, ARPANET, por começar tudo isso!</p>
           </div>
         </article>
       </section>
@@ -101,12 +104,12 @@ export default function Home() {
               A T.I é uma área vasta, que inclui:
             </p>
             <ul>
-              <li>Desenvolvimento de software</li>
-              <li>Segurança da informação</li>
-              <li>Administração de redes</li>
-              <li>Inteligência artificial</li>
-              <li>Ciência de dados</li>
-              <li>Suporte técnico</li>
+              <li>Desenvolvimento de software (Responsaveis infelizes pela existência do o LoL)</li>
+              <li>Segurança da informação (Os Hackermans da vida real)</li>
+              <li>Administração de redes (Nome autoexplicativo, é o que a vivo não tem!)</li>
+              <li>Inteligência artificial (Os anjos que criaram o ChatGPT)</li>
+              <li>Ciência de dados (Traduzem rios de números em soluções brilhantes)</li>
+              <li>Suporte técnico (Os carinhas do: "já tentou reiniciar?").</li>
             </ul>
             <p>Essas especialidades ajudam empresas e pessoas a resolver problemas e inovar.</p>
 
