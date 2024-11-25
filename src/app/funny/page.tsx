@@ -39,7 +39,7 @@ export default function Home() {
         <article className='infoArticle'>
           <h1>Como surgiu a internet?</h1>
           <div className='textContent'>
-            <p>A internet surgiu no final dos anos 1960, basicamente porque alguém pensou: "E se precisarmos mandar um e-mail secreto sobre mísseis nucleares?" Assim, nasceu uma rede para conectar computadores de diferentes locais de forma segura e descentralizada.
+            <p>A internet surgiu no final dos anos 1960, basicamente porque alguém pensou: &quot;E se precisarmos mandar um e-mail secreto sobre mísseis nucleares?&quot; Assim, nasceu uma rede para conectar computadores de diferentes locais de forma segura e descentralizada.
               <br />
               Com o tempo, essa ideia séria acabou caindo nas mãos das universidades, que usaram para trocar artigos científicos, e depois das empresas, que a transformaram em uma máquina de anúncios. Eventualmente, chegou até o público geral, onde evoluiu para o que conhecemos hoje: 
               <br />um lugar onde memes, vídeos de gatinhos e debates acalorados sobre qual é o melhor sabor de pizza dominam a comunicação global.</p>
@@ -109,7 +109,7 @@ export default function Home() {
               <li>Administração de redes (Nome autoexplicativo, é o que a vivo não tem!)</li>
               <li>Inteligência artificial (Os anjos que criaram o ChatGPT)</li>
               <li>Ciência de dados (Traduzem rios de números em soluções brilhantes)</li>
-              <li>Suporte técnico (Os carinhas do: "já tentou reiniciar?").</li>
+              <li>Suporte técnico (Os carinhas do: &quot;já tentou reiniciar?&quot;).</li>
             </ul>
             <p>Essas especialidades ajudam empresas e pessoas a resolver problemas e inovar.</p>
 
