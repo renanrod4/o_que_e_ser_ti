@@ -153,9 +153,9 @@ main {
       @apply flex-1;
     }
     #itAreasLeft{
-      @apply border-orange max-w-[60%] max-h-[85%];
+      @apply border-orange max-w-[60%] max-h-[85%] px-0;
       .textContent{
-        @apply flex-col  px-[12%];
+        @apply flex-col;
         ul{
           @apply pl-6 py-6 text-start;
         }
@@ -164,7 +164,7 @@ main {
           
         }
         p{
-          @apply text-center;
+          @apply text-center px-[12%];
         }
 
       }
