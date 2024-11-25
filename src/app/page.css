@@ -1,8 +1,9 @@
+
 main {
   @apply w-full h-fit;
 
   section {
-    @apply w-full h-svh flex justify-center items-center overflow-hidden;
+    @apply w-full h-svh flex justify-center items-center overflow-hidden ;
   }
 
   div {
@@ -147,12 +148,12 @@ main {
   }
   #itAreas{
     @apply flex;
-    article{
+  
+    #itAreasRight{
       @apply flex-1;
-      
     }
     #itAreasLeft{
-      @apply border-orange;
+      @apply border-orange max-w-[60%] max-h-[85%];
       .textContent{
         @apply flex-col  px-[12%];
         ul{
@@ -165,13 +166,69 @@ main {
         p{
           @apply text-center;
         }
+
       }
     }
   }
+  #prosAndCons{
+    @apply flex-col ;
+    li{
+      @apply list-disc ; 
+    }
+    &>h1{
+      @apply text-3xl pt-4;
+    }
+    #pros{
+      @apply border-green bg-[#0cce6b0c] flex-1 ;
+      box-shadow: 0 0 30px #0cce6b99;
 
+    }
+    #cons{
+      @apply border-red bg-[#db162f0c] flex-1;
+      box-shadow: 0 0 30px #db162f99;
+    }
+    .textContent{
+      @apply justify-start items-start text-start w-full px-8;
+    }
+  }
+  #topLangs{
+    @apply flex-col;
+    &>div{
+      @apply overflow-hidden;
+    }
+    div{
+      @apply rounded-none ;
+    }
+    .infoArticle{
+      @apply max-h-[100%] m-4 border-red;
+    }
+    .textContent{
+      @apply flex-col;
+      ul{
+        @apply flex flex-col text-start items-start pl-4;
+      li{
+        @apply pt-5 list-disc;
+      }
+      }
+     
+    }
+  }
+  .money{
+    @apply absolute w-1/2 opacity-30;
+  }
+  .moneySt{
+    @apply left-[50%] -scale-x-100 -translate-y-3;
+  }
+  .moneyNd{
+    @apply right-[50%] -scale-x-100 -translate-y-3;
+  }
+  .moneyRd{
+    @apply left-1/2 -translate-x-1/2 -scale-100;
+  }
 
   .infoArticle {
-    @apply rounded-3xl border-2 m-10 p-8 ;
+    @apply rounded-3xl border-2 m-10 p-8 z-10 backdrop-blur-md w-3/5 bg-[#17191E99] border-green;
+    
 
     h1 {
       @apply text-5xl pb-10;
@@ -205,6 +262,9 @@ main {
 
 .yellow {
   @apply text-yellow;
+}
+.orange{
+  @apply text-orange;
 }
 
 .yellow-glow {

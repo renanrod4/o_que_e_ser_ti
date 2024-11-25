@@ -1,4 +1,6 @@
 import { AnimatedBorderDemo } from "./components/borderanim/animated-border-demo";
+import { InfiniteCarouselDemo } from "./components/carousel/infinite-carousel-demo";
+
 import Image from 'next/image'
 import { Displays } from './components/displays/displays';
 import './page.css'
@@ -88,6 +90,7 @@ export default function Home() {
       </section>
 
       <section>
+
         <AnimatedBorderDemo />
       </section>
       <section className="darker" id="itAreas">
@@ -111,6 +114,68 @@ export default function Home() {
         </article>
         <article id="itAreasRight">
           <Image alt="computer" src={"/images/computer.svg"} width={900} height={900} id="computer" />
+        </article>
+      </section>
+
+      <section id="prosAndCons" className="darker">
+        <div className="flex flex-row w-full">
+          <article id="pros" className="infoArticle">
+            <h1>Pontos Positivos</h1>
+            <div className="textContent">
+              <ul className="text-start">
+                <li>Grandes oportunidades de carreira</li>
+                <li>Trabalhos remotos e flexíveis</li>
+                <li>Salários atrativos</li>
+                <li>Tendência a crescer</li>
+              </ul>
+            </div>
+          </article >
+          <article id="cons" className="infoArticle">
+            <h1>Pontos Negativos</h1>
+            <div className="textContent">
+              <ul className="text-start">
+                <li>Alta demanda por atualização constante</li>
+                <li>Pode ser uma área estressante</li>
+                <li>Longas horas de trabalho em alguns casos</li>
+                <li>Muita Concorrência</li>
+                <li>Ausência de regulamentação</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+        <h1 >São mais pontos negativos do que positivos...</h1>
+      </section>
+      <section id="topLangs">
+        <article className="infoArticle">
+          <h1>Linguagens em alta</h1>
+          <div className="textContent">
+            <p>Atualmente, algumas das linguagens mais populares e utilizadas são:</p>
+            <ul>
+              <li>Python: usado em inteligência artificial e ciência de dados.</li>
+              <li>JavaScript: essencial para desenvolvimento web.</li>
+              <li>Java: muito usado por grandes empresas em aplicativos móveis.</li>
+              <li>C#: comum em desenvolvimento de jogos e softwares.</li>
+              <li>C++: amplamente usado em aplicações desktop</li>
+              <li>Rust: Usado em construção de sistemas que tem grande controle sobre o hardware</li>
+            </ul>
+          </div>
+
+        </article>
+        <div className="bg-darker rounded-none w-full flex items-center justify-center h-[105px]">
+          <InfiniteCarouselDemo />
+        </div>
+      </section>
+      <section id="minimumWage" className="darker">
+        <Image src="images/money.svg" className="money moneySt" width={1000} height={1000} alt="money" />
+        <Image src="images/money.svg" className="money moneyNd" width={1000} height={1000} alt="money" />
+        <Image src="images/money.svg" className="money moneyRd" width={1000} height={1000} alt="money" />
+
+        <article className="infoArticle">
+          <h1>Piso salarial em TI</h1>
+          <div className="textContent">
+            <p>Os salários na área de TI variam conforme a experiência e a localização. <br />O piso salarial inicial pode variar entre R$2.000 a R$4.000 no Brasil, enquanto profissionais experientes podem ganhar muito mais, principalmente em áreas como desenvolvimento de software e segurança da informação. <br />Enquanto a média salarial na área no Brasil pode variar entre R$6.000 e R$10.000 mensais</p>
+          </div>
+
         </article>
       </section>
     </main>

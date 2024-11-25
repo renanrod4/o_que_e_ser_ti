@@ -8,6 +8,15 @@ export default {
   ],
   theme: {
     extend: {
+      animation: {
+        "infinite-scroll": "scroll var(--duration) linear infinite",
+      },
+      keyframes: {
+        scroll: {
+          "0%": { transform: "translateX(0)" },
+          "100%": { transform: "translateX(-50%)" },
+        },
+      },
       // Adicionando textShadow ao tema
       textShadow: {
         'yellow': '0 0 10px rgba(0, 0, 0, 0.5), 0 0 30px yellow',
