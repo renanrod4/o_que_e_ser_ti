@@ -231,11 +231,12 @@ main {
     
 
     h1 {
-      @apply text-5xl pb-10;
+      @apply xl:text-5xl lg:text-3xl pb-10;
     }
+    
 
     .textContent {
-      @apply flex flex-1 text-[1.5rem] text-center justify-center items-center;
+      @apply flex flex-1 xl:text-[1.5rem] text-center justify-center items-center;
     }
   }
 
@@ -291,4 +292,13 @@ main {
 #httpsvg {
   filter: invert(22%) sepia(84%) saturate(3447%) hue-rotate(260deg)
     brightness(76%) contrast(93%);
+}
+@media only screen and (max-width: 1024px) {
+
+  article{
+    @apply m-0;
+    h1{
+      @apply text-sm ;
+    }
+  }
 }
