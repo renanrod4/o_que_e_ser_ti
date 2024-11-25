@@ -2,7 +2,6 @@ import { CardItem } from "./card-item";
 import { AnimatedBorder } from "./animatedborder";
 
 export function AnimatedBorderDemo() {
-  let breakline = "\n"
   return (
     <AnimatedBorder
       className="max-h-3/5 h-fit w-3/6 rounded-xl "

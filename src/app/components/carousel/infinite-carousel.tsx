@@ -32,7 +32,9 @@ export const InfiniteCarousel = ({
         )}
       >
         {children}
-        {Children.map(children, (child) => cloneElement(child as any))}
+        {Children.map(children, (child) =>
+          cloneElement(child as React.ReactElement)
+        )}
       </div>
     </div>
   );
