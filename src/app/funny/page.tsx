@@ -104,7 +104,7 @@ export default function Home() {
               A T.I é uma área vasta, que inclui:
             </p>
             <ul>
-              <li>Desenvolvimento de software (Responsaveis infelizes pela existência do o LoL)</li>
+              <li>Desenvolvimento de software (Responsaveis infelizes pela existência do LoL)</li>
               <li>Segurança da informação (Os Hackermans da vida real)</li>
               <li>Administração de redes (Nome autoexplicativo, é o que a vivo não tem!)</li>
               <li>Inteligência artificial (Os anjos que criaram o ChatGPT)</li>
